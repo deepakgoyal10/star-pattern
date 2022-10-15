@@ -12,8 +12,7 @@ try:
 
     if n4 == False:
         while n3 <= n1:
-            print("*" * n1, end="")
-            print("\n", end="")
+            print("*" * n1, end="\n")
             n1 = n1 - 1
 
 except Exception as e:
